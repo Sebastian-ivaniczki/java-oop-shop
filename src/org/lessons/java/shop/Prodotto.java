@@ -9,10 +9,10 @@ public class Prodotto {
 	
 	public Prodotto(String code, String name, String description, double price, int iva) {
 		this.code = code;
-		this.name = name;
-		this.description = description;
-		this.price = price;
-		this.iva = iva;
+		setName(name);
+		setDescription(description);
+		setPrice(price);
+		setIva(iva);
 	}
 	
 	// Getter and Setter 

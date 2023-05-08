@@ -13,7 +13,7 @@ public class Conto {
 		
 		this.contNumber = rn.nextInt(1001);
 		
-		this.name = name;
+		setName(name);
 		this.balance = 0;
 		
 	}
